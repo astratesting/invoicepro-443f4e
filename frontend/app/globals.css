@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.grid-bg {
+  background-image: linear-gradient(rgba(35, 119, 255, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(35, 119, 255, 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
